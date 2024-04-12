@@ -91,12 +91,6 @@
   }
 }
 
-.smaller-image {
-  max-width: 200px; /* Defina o tamanho máximo desejado */
-  max-height: 200px;
-}
-
-
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -109,7 +103,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 
 hr {
   margin: 1rem 0;
@@ -314,7 +307,6 @@ img,
 svg {
   vertical-align: middle;
 }
-
 
 table {
   caption-side: bottom;
@@ -606,10 +598,9 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%; /* Defina o tamanho máximo desejado */
+  max-width: 100%;
   height: auto;
 }
-
 
 .img-thumbnail {
   padding: 0.25rem;
